@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS file_audit (
+    id SERIAL PRIMARY KEY,
+    file_name VARCHAR(255) NOT NULL,
+    analysis_id VARCHAR(255) NOT NULL,
+    scan_result BOOLEAN NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

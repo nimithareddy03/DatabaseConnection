@@ -1,4 +1,4 @@
-package com.targetindia.demo;
+package com.targetindia.audit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
